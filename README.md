@@ -6,6 +6,8 @@
 
 Для запуска проекта локально на своем ПК, необходимо установить библиотеку React и react-route-dom, далее удалить все содержимое папки src на то что лежит в файлы которые находятс в папке src данного репозитория и в терминле ввести команду "npm start"
 
+Для просмотра уже запущенного проекта (я выполнил деплой пректа на gitHub) можно пройти по ссылке [ProjectProject Management Systems](https://gfredex.github.io/pms/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

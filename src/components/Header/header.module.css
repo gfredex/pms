@@ -21,21 +21,18 @@
     font-size: 22px;
     cursor: pointer;
     text-decoration: none;
-    color: #333;
+    color: inherit;
     font-weight: 600;
 }
 
-.link:hover {
+.link:hover,
+.link.active {
     color: red;
-}
-
-.active {
-    color: red;
-    font-weight: 800;
 }
 
 .newTaskBtn {
     font-size: 22px;
+    font-weight: 600;
     outline: none;
     background-color: #fff;
     border: 2px solid #333;
@@ -45,7 +42,7 @@
 }
 
 .newTaskBtn:hover {
-    font-weight: 800;
     color: #fff;
     background-color: #333;
+    border: 2px solid #ffffff;
 }

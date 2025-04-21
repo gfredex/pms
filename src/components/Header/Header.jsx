@@ -7,8 +7,10 @@ const Header = () => {
     return (
         <div className={styles.header}>
             < div className={styles.leftSide} >
-                <NavLink className={styles.link} to='/projectBoard'>Проекты</NavLink>
-                <NavLink className={styles.link} to='/tasksBoard'>Все задачи</NavLink>
+                <NavLink className={({ isActive }) =>
+                    isActive ? `${styles.link} ${styles.active}` : styles.link} to='/projectBoard'>Проекты</NavLink>
+                <NavLink className={({ isActive }) =>
+                    isActive ? `${styles.link} ${styles.active}` : styles.link} to='/tasksBoard'>Все задачи</NavLink>
             </ div>
             <button className={styles.newTaskBtn}>Создать задачу</button>
         </div >
